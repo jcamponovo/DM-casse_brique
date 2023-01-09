@@ -71,7 +71,7 @@ def draw():
     pyxel.rect(ball_x, ball_y, BALL_SIZE, BALL_SIZE, 11)
   
 init()
-pyxel.run(update, draw
+pyxel.run(update, draw)
 
  
 
