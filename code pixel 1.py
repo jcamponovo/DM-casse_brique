@@ -69,6 +69,9 @@ def draw():
     # Dessine la balle et la raquette
     pyx el.rect(paddle_x, paddle_y, PADDLE_WIDTH, PADDLE_HEIGHT, 9)
     pyxel.rect(ball_x, ball_y, BALL_SIZE, BALL_SIZE, 11)
+  
+init()
+pyxel.run(update, draw
 
  
 
